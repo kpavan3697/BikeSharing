@@ -34,15 +34,15 @@ Conducted feature selection, assessing the significance of variables for predict
 Model Evaluation
 Performance Metrics:
 Evaluated the model using R-squared score on the test set.
-Observed an R-squared score of around 0.806, indicating the model explains about 80.6% of the variance in bike rental counts.
+Observed an R-squared score of around 0.833, indicating the model explains about 83.3% of the variance in bike rental counts.
 
 Significant Variables:
-Identified significant variables such as 'season', 'yr', 'weathersit', 'atemp', 'hum', 'windspeed', etc., impacting bike rentals.
+Identified significant variables such as  holiday, weekday, temp, hum, windspeed, season_2, season_3, season_4, weathersit_2, and weathersit_3 etc., impacting bike rentals.
 
 
 
 ## Conclusions
-Model Fit: The model shows a relatively good fit as indicated by the R-squared value of 0.806, implying that approximately 80.6% of the variability in the dependent variable ("cnt" - bike rentals) is explained by the independent variables included in the model.
+Model Fit: The model shows a relatively good fit as indicated by the R-squared value of 0.833, implying that approximately 83.3% of the variability in the dependent variable ("cnt" - bike rentals) is explained by the independent variables included in the model.
 
 Significant Predictors: Several predictors such as "season," "yr" (year), "mnth" (month), "weekday," "weathersit," "atemp" (feels-like temperature), "hum" (humidity), "windspeed," "day," "month," and "year" exhibit significant relationships with the number of bike rentals ("cnt").
 
